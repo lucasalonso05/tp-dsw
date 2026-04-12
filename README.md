@@ -1,7 +1,5 @@
 # Propuesta TP DSW
----
 ## Grupo
----
 ### Integrantes
 - 52904 - Alonso Lucas
 - 52172 - Bernaus Marco
@@ -9,13 +7,11 @@
 - [Backend app]()
 - [Frontend app]()
 ## Tema
----
 ### Descripcion
 (descripcion 2-6 lineas)
 ### Modelo
 (MD o DER)
 ## Alcance Funcional
----
 ### Alcance Minimo
 *Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
