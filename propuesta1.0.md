@@ -9,8 +9,8 @@
 
 ### Repositorios
 
-- [frontend app](https://github.com/Nazzexx/frontend-tp-dsw)
-- [backend app](https://github.com/Nazzexx/backend-tp-dsw)
+- [frontend app](https://github.com/lucasalonso05/frontend-tp-dsw)
+- [backend app](https://github.com/lucasalonso05/backend-tp-dsw)
 
 
 ## Tema
@@ -24,10 +24,6 @@
 [Modelo de Dominio](https://app.diagrams.net/#G1YeVLq-fw8C--I0QO49Y6gy2DhVLOH-Gl#%7B%22pageId%22%3A%22aeLrP3cNd4E7HgFAqeD7%22%7D)
 
 ## Alcance Funcional
-
-### Alcance Mínimo
-
-#### Regularidad
 
 ##### CRUDs Simples
 
@@ -55,9 +51,6 @@
 | --- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | **Comprar entradas para un evento** | Un usuario navega el catálogo de eventos, selecciona un evento, elige el tipo y cantidad de entradas, opcionalmente ingresa un código de descuento, confirma la compra y recibe el/los ticket(s) digitales con código QR único por entrada adquirida. El stock disponible se decrementa al confirmar. |
 
-
-#### Adicionales para Aprobación Directa o en Examen
-
 ##### CRUDs de todas las clases de negocio necesarias
 
 | #   | CRUD               | Descripción                                                                                                 |
@@ -70,7 +63,7 @@
 | 6   | **CRUD Descuento** | ABM de códigos de descuento por evento: porcentaje, fecha de expiración, límite de usos. Depende de Evento. |
 | 7   | **CRUD Usuario**   | Gestión de usuarios (admin). Permite ver, activar/desactivar cuentas y cambiar roles.                       |
 
-##### Casos de Uso / Épics para Aprobación
+##### Casos de Uso / Épics
 
 | #   | CUU / Epic                             | Descripción detallada                                                                                                                                                                                                                                                               | Relación                      |
 | --- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
@@ -79,9 +72,9 @@
 | 3   | **Panel de analítica del organizador** | El organizador autenticado accede a un dashboard de su evento que muestra: total de entradas vendidas vs. disponibles por tipo, ingresos totales, cantidad de check-ins realizados vs. entradas vendidas e historial de descuentos utilizados.                                      | Consume datos de CUU 1, 2 y 3 |
 
 
-### Alcance Adicional Voluntario
+### Alcance Adicional
 
-|#| Req | Detalle |
+| Req | Detalle |
 |-----|---------|
 | Listado avanzado | Buscador global de eventos con filtros combinados (categoría + ciudad + rango de precio + fecha) y ordenamiento por popularidad (entradas vendidas) o fecha. |
 | CUU: Valoración de evento | Un usuario que compró entradas puede dejar una calificación (1-5 estrellas) y comentario sobre el evento luego de su fecha de realización. Las valoraciones se muestran en el detalle público del evento con promedio y comentarios paginados. |
