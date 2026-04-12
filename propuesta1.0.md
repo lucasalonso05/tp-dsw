@@ -25,8 +25,6 @@
 
 ## Alcance Funcional
 
----
-
 ### Alcance Mínimo
 
 #### Regularidad
