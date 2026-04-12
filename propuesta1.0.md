@@ -21,7 +21,7 @@
 
 ### Modelo
 
-## (desarrollado en draw.io)
+[Modelo de Dominio](https://app.diagrams.net/#G1YeVLq-fw8C--I0QO49Y6gy2DhVLOH-Gl#%7B%22pageId%22%3A%22aeLrP3cNd4E7HgFAqeD7%22%7D)
 
 ## Alcance Funcional
 
