@@ -29,7 +29,7 @@
 
 #### Regularidad
 
-##### CRUDs Simples _(1 por integrante → 4 en total)_
+##### CRUDs Simples
 
 | #   | CRUD Simple          | Descripción                                                                                |
 | --- | -------------------- | ------------------------------------------------------------------------------------------ |
@@ -37,25 +37,24 @@
 | 2   | **CRUD Lugar**       | ABM de lugares/venues con nombre, dirección, ciudad y capacidad máxima. Sin dependencias.  |
 | 3   | **CRUD Organizador** | ABM de organizadores con datos de contacto y estado de verificación. Sin dependencias.     |
 
-##### CRUDs Dependientes _(1 cada 2 integrantes → 2 en total)_
+##### CRUDs Dependientes
 
 | #   | CRUD Dependiente | Dependencias                                                                              |
 | --- | ---------------- | ----------------------------------------------------------------------------------------- |
 | 1   | **CRUD Evento**  | Depende de: Categoría, Lugar, Organizador. Incluye gestión de fechas y estado del evento. |
 
-##### Listados con Filtro y Detalle _(1 cada 2 integrantes → 2 en total)_
+##### Listados con Filtro y Detalle
 
 | #   | Listado                | Filtros                                                                       | Detalle al seleccionar                                                                      |
 | --- | ---------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | 1   | **Listado de Eventos** | Por categoría, ciudad, rango de fechas y estado (activo/cancelado/finalizado) | Muestra datos completos del evento + lugar + organizador + entradas disponibles con precios |
 
-##### Casos de Uso de Usuario / Épics _(1 cada 2 integrantes → 2 en total)_
+##### Casos de Uso de Usuario / Épics
 
 | #   | CUU / Epic                          | Descripción detallada                                                                                                                                                                                                                                                                                 |
 | --- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | **Comprar entradas para un evento** | Un usuario navega el catálogo de eventos, selecciona un evento, elige el tipo y cantidad de entradas, opcionalmente ingresa un código de descuento, confirma la compra y recibe el/los ticket(s) digitales con código QR único por entrada adquirida. El stock disponible se decrementa al confirmar. |
 
----
 
 #### Adicionales para Aprobación Directa o en Examen
 
@@ -71,7 +70,7 @@
 | 6   | **CRUD Descuento** | ABM de códigos de descuento por evento: porcentaje, fecha de expiración, límite de usos. Depende de Evento. |
 | 7   | **CRUD Usuario**   | Gestión de usuarios (admin). Permite ver, activar/desactivar cuentas y cambiar roles.                       |
 
-##### Casos de Uso / Épics para Aprobación _(1 por integrante → 4 en total, mínimo 2 relacionados entre sí)_
+##### Casos de Uso / Épics para Aprobación
 
 | #   | CUU / Epic                             | Descripción detallada                                                                                                                                                                                                                                                               | Relación                      |
 | --- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
@@ -79,7 +78,6 @@
 | 2   | **Cancelar orden y reintegro**         | Un usuario autenticado puede cancelar una orden confirmada dentro de un plazo definido (ej: 24 hs antes del evento). El sistema actualiza el estado de la orden, libera el stock de entradas y genera un registro de reintegro. Los tickets digitales asociados quedan invalidados. | Consume datos de CUU 1        |
 | 3   | **Panel de analítica del organizador** | El organizador autenticado accede a un dashboard de su evento que muestra: total de entradas vendidas vs. disponibles por tipo, ingresos totales, cantidad de check-ins realizados vs. entradas vendidas e historial de descuentos utilizados.                                      | Consume datos de CUU 1, 2 y 3 |
 
----
 
 ### Alcance Adicional Voluntario
 
