@@ -12,7 +12,6 @@
 - [frontend app](https://github.com/Nazzexx/frontend-tp-dsw)
 - [backend app](https://github.com/Nazzexx/backend-tp-dsw)
 
----
 
 ## Tema
 
