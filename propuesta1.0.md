@@ -9,8 +9,8 @@
 
 ### Repositorios
 
-- [frontend app](https://github.com/lucasalonso05/frontend-tp-dsw)
-- [backend app](https://github.com/lucasalonso05/backend-tp-dsw)
+- [Frontend app](https://github.com/lucasalonso05/frontend-tp-dsw)
+- [Backend app](https://github.com/lucasalonso05/backend-tp-dsw)
 
 
 ## Tema
