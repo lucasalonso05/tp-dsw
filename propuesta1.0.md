@@ -79,3 +79,4 @@
 | Listado avanzado | Buscador global de eventos con filtros combinados (categoría + ciudad + rango de precio + fecha) y ordenamiento por popularidad (entradas vendidas) o fecha. |
 | CUU: Valoración de evento | Un usuario que compró entradas puede dejar una calificación (1-5 estrellas) y comentario sobre el evento luego de su fecha de realización. Las valoraciones se muestran en el detalle público del evento con promedio y comentarios paginados. |
 | Notificaciones por email | Envío automático de email con los tickets digitales (QR en PDF) al confirmar una compra. Uso de Nodemailer o similar. |
+|Escaneo de Ticket | Escenar ticket QR, mediante celular/tablet, consiste en leer QR con camára y llamar a un endpoint para que la redima. Validar que el ticket no haya sido ya canjeado. Se podría cambiar por buscador global. |
