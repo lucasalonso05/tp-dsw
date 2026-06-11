@@ -10,6 +10,7 @@
 ### Repositorios
 
 - [Frontend app](https://github.com/lucasalonso05/frontend-tp-dsw)
+
 - [Backend app](https://github.com/lucasalonso05/backend-tp-dsw)
 
 
@@ -19,10 +20,10 @@
 
 **Eventify** es una plataforma web de gestión integral de eventos y venta de entradas que conecta organizadores con asistentes. Los organizadores pueden crear y administrar eventos (recitales, discotecas, pasarelas y cualquier evento el cual requiera la venta de una entrada), definir tipos y precios de entrada y hacer seguimiento de ventas en tiempo real. Los asistentes pueden explorar el catálogo de eventos y adquirir entradas.
 
-### Modelo
+### Modelos
 
-[Modelo de Dominio](https://app.diagrams.net/#G1YeVLq-fw8C--I0QO49Y6gy2DhVLOH-Gl#%7B%22pageId%22%3A%22aeLrP3cNd4E7HgFAqeD7%22%7D)
-[Modelo E-R](https://app.diagrams.net/#G1evoEeu5em70AoNBYQtrcQK7Xg6rDGpo3#%7B%22pageId%22%3A%22YW967FpKlnsLeLXvUvun%22%7D)
+- [Modelo de Dominio](https://app.diagrams.net/#G1YeVLq-fw8C--I0QO49Y6gy2DhVLOH-Gl#%7B%22pageId%22%3A%22aeLrP3cNd4E7HgFAqeD7%22%7D)
+- [Modelo E-R](https://app.diagrams.net/#G1evoEeu5em70AoNBYQtrcQK7Xg6rDGpo3#%7B%22pageId%22%3A%22YW967FpKlnsLeLXvUvun%22%7D)
 
 
 ## Alcance Funcional
