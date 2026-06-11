@@ -1,4 +1,4 @@
-# Propuesta TP DSW
+# Eventify🚀
 
 ## Grupo
 
